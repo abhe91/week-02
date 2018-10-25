@@ -75,10 +75,10 @@
         
 if(nilai % 3 == 0)
         {
-            console.log(nilai+ ' ini kelipatan 3' );
+            console.log('counter ' + nilai+ ' kelipatan 3' );
         } else
         {
-            console.log(nilai + ' ' );
+            console.log('counter ' + nilai);
         }
      }
 
@@ -88,10 +88,10 @@ if(nilai % 3 == 0)
          
 if(nilai % 6 == 0)
          {
-             console.log(nilai+ ' ini kelipatan 10' );
+             console.log('counter ' + nilai+ ' kelipatan 6' );
          } else
          {
-             console.log(nilai + '-' );
+             console.log('counter ' + nilai );
          }
       }
 
@@ -101,10 +101,10 @@ if(nilai % 6 == 0)
           
 if(nilai % 10 == 0)
           {
-              console.log(nilai+ ' ini kelipatan 10' );
+              console.log('counter ' + nilai+ ' kelipatan 10' );
           } else
           {
-              console.log(nilai + ' -' );
+              console.log('counter ' + nilai );
           }
           
        }
