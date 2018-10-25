@@ -10,7 +10,7 @@ var sixth = 'love ';
 var seventh = 'it!';
 
 console.log(word + second + third + fourth + fifth + sixth + seventh);
-
+//output : JavaScript is awesome and I love it!
 
 // SOAL NO 2
 // ===================================
@@ -22,11 +22,11 @@ var thirdWord = word[15] + word[16];
 var fourthWord = word[18] + word[19];
 var fifthWord = word[21] + word[22] + word[23] + word[24];
 
-console.log('First Word: ' + exampleFirstWord);
-console.log('Second Word: ' + secondWord);
-console.log('Third Word: ' + thirdWord );
-console.log('Fourth Word: ' + fourthWord);
-console.log('Fifth Word: ' + fifthWord);
+console.log('First Word: ' + exampleFirstWord);// First Word: wow
+console.log('Second Word: ' + secondWord);// Second Word: JavaScript
+console.log('Third Word: ' + thirdWord ); // Third Word: is
+console.log('Fourth Word: ' + fourthWord); // Fourth Word: so
+console.log('Fifth Word: ' + fifthWord); // Fifth Word: cool
 
 // SOAL NO 3
 // ==========================================
@@ -39,11 +39,11 @@ var fourthWord = word3.substring(18, 20);
 var fifthWord= word3.substring(21, 25);
 
 console.log(word.length);
-console.log('First Word: ' + exampleFirstWord);
-console.log('Second Word: ' + secondWord);
-console.log('Third Word: ' + thirdWord);
-console.log('Fourth Word: ' + fourthWord);
-console.log('Fifth Word: ' + fifthWord);
+console.log('First Word: ' + exampleFirstWord); // First Word: wow
+console.log('Second Word: ' + secondWord);// First Word: wow
+console.log('Third Word: ' + thirdWord); // Third Word: is
+console.log('Fourth Word: ' + fourthWord); // Fourth Word: so
+console.log('Fifth Word: ' + fifthWord); // Fifth Word: cool
 
 
 // SOAL NO 4
@@ -57,8 +57,8 @@ var fourthWord4 = word4.substring(18, 20);
 var fifthWord4 = word4.substring(21, 25);
 
 // console.log(word4.length);
-console.log('First Word: ' + FirstWord4 + ', with length ' + FirstWord4.length);
-console.log('Second Word: ' + secondWord4 + ', with length ' + secondWord4.length);
-console.log('Third Word: ' + thirdWord4 + ', with length ' + thirdWord4.length);
-console.log('Fourth Word: ' + fourthWord4 + ', with length ' + fourthWord4.length);
-console.log('Fifth Word: ' + fifthWord4 + ', with length ' + fifthWord4.length);
+console.log('First Word: ' + FirstWord4 + ', with length ' + FirstWord4.length); //First Word: wow, with length 3
+console.log('Second Word: ' + secondWord4 + ', with length ' + secondWord4.length); // Second Word: JavaScript, with length 10
+console.log('Third Word: ' + thirdWord4 + ', with length ' + thirdWord4.length); // Third Word: is, with length 2
+console.log('Fourth Word: ' + fourthWord4 + ', with length ' + fourthWord4.length); // Fourth Word: so, with length 2
+console.log('Fifth Word: ' + fifthWord4 + ', with length ' + fifthWord4.length);// Fifth Word: cool, with length 4
