@@ -1,11 +1,12 @@
 // rows1
-var count = 5;
+    var count = 5;
 for ( var i=0; i<count; i++){
-    rows1 = '';
-    for(var j=0; j<1; j++)
+    rows1 = ''
     rows1 += '*'
-console.log(rows1)
-}
+    console.log(rows1)
+    }
+
+
 // ===============================
 // *
 // *
@@ -17,11 +18,11 @@ console.log(rows1)
 
 var count = 5;
 for ( var i=0; i<count; i++){
-    rows2 = '';
+        rows2 = '';
     for(var j=0; j<5; j++)
-    rows2 += '*'
-console.log(rows2)
-}
+        rows2 += '*'
+        console.log(rows2)
+    }
 
 // // ===============================
 // // *****
@@ -31,18 +32,14 @@ console.log(rows2)
 // // *****
 // // ================================
 
-
-
-
-
 var count = 5;
 for ( var i=0; i<= count; i++){
     rows3 = '';
     for(var j=0; j<i; j++){
     rows3 += '*'
-}
-console.log(rows3)
-}
+        }
+    console.log(rows3)
+    }
 
 
 // // ===============================
