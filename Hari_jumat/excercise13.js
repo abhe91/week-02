@@ -18,6 +18,9 @@ function xo(str){
         return false
                 }
             }
-
-console.log(xo('xoxoxoo'))
-console.log(xo('oxxo'))
+            
+console.log(xo('xoxoxo')); // true
+console.log(xo('oxooxo')); // false
+console.log(xo('oxo')); // false
+console.log(xo('xxxooo')); // true
+console.log(xo('xoxooxxo')); // true
