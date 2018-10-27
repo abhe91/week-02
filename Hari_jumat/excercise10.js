@@ -1,12 +1,15 @@
+//Hasbunallah Wanimalwakil::    
+
+
 function bandingkanAngka(angka1, angka2) {
     if(angka1 < angka2){
-    return true
-} else if( angka1 > angka2){
-    return false
-  } else if( angka1 == angka2){
-      return -1
-  }
-}
+        return true
+    }else if( angka1 > angka2){
+        return false
+    }else if( angka1 == angka2){
+        return -1
+        }
+    }
   
 console.log(bandingkanAngka(5, 8)); // true
 console.log(bandingkanAngka(5, 3)); // false
