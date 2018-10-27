@@ -1,11 +1,9 @@
 //Hasbunallah Wanimalwakil::    
     
-    var input = '';
-    var kata = input;
 function balikKata(kata){
-    
+    var input = '';
     for( var i = kata.length-1; i >= 0; i--){
-    input += kata.charAt(i);
+        input = input + kata[i];
     }
     return input
 }
